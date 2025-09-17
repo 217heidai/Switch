@@ -23,8 +23,8 @@ class README(object):
                     line = [x.strip() for x in line]
                     if line[0] in ("项目", "---"):
                         continue
-                    itemList.append(ITEM(line[0][line[0].find("(") + 1 + len("https://github.com/"):-1], line[2][1:-1], line[3][1:-1], line[4], path_dst[:path_dst.rfind("/")+1] + line[5][1:-1], line[6])) # 生产
-                    #itemList.append(ITEM(line[0][line[0].find("(") + 1 + len("https://github.com/"):-1], line[2][1:-1], line[3][1:-1], line[4], path_dst[:path_dst.rfind("/")+1] + line[5][1:-1], line[6], proxy = "https://ghfast.top/")) # 测试
+                    itemList.append(ITEM(line[0][line[0].find("(") + 1 + len("https://github.com/"):-1], line[2][1:-1], line[3][1:-1] if len(line[3]) > 2 else "", line[4], path_dst[:path_dst.rfind("/")+1] + line[5][1:-1], line[6])) # 生产
+                    #itemList.append(ITEM(line[0][line[0].find("(") + 1 + len("https://github.com/"):-1], line[2][1:-1], line[3][1:-1] if len(line[3]) > 2 else "", line[4], path_dst[:path_dst.rfind("/")+1] + line[5][1:-1], line[6], proxy = "https://ghfast.top/")) # 测试
         except Exception as e:
             logger.exception("%s" % (e))
         finally:
