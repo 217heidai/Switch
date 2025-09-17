@@ -67,6 +67,7 @@ class DOWNLOADER:
             logger.exception("%s" % (e))
         finally:
             if isDownload:
+                logger.info("download successed: %s[%s]"%(fileName, repo))
                 return isDownload, fileName, fileDigest, fileDate, tag
             else:
                 return isDownload, None, None, None, None
