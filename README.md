@@ -9,7 +9,7 @@
 | [Atmosphere](https://github.com/Atmosphere-NX/Atmosphere) | Atmosphere-NX | `fusee.bin` | `1.9.4` | 20250903 | `switch_sdcard/bootloader/payloads/fusee.bin` | 大气层，破解官方系统权限，运行插件和软件 |
 | [hekate](https://github.com/easyworld/hekate) | easyworld | `^hekate.*sc.zip$` | `v6.3.1` | 20250529 | `switch_sdcard` | bootloader 程序，用来加载 atmosphere、sigpatch |
 | [sys-patch](https://github.com/impeeza/sys-patch) | impeeza | `sys-patch.zip` | `v1.5.6` | 20250505 | `switch_sdcard` | 外挂的大气层签名补丁，使大气层可运行破解软件，依赖 Tesla，替代 sigpatch |
-| [Lockpick_RCMDecScots](https://github.com/zdm65477730/Lockpick_RCMDecScots) | zdm65477730 | `^Lockpick_RCM.*.zip$` |  |  | `switch_sdcard/bootloader/payloads` | 主机系统的密钥提取工具 |
+| [Lockpick_RCMDecScots](https://github.com/zdm65477730/Lockpick_RCMDecScots) | zdm65477730 | `Lockpick_RCM.bin` |  |  | `switch_sdcard/bootloader/payloads/Lockpick_RCM.bin` | 主机系统的密钥提取工具 |
 | [TegraExplorer](https://github.com/zdm65477730/TegraExplorer) | zdm65477730 | `TegraExplorer.bin` |  |  | `switch_sdcard/bootloader/payloads/TegraExplorer.bin` | Hekate 下的文件管理工具 |
 | [nx-ovlloader](https://github.com/zdm65477730/nx-ovlloader) | zdm65477730 | `nx-ovlloader.zip` | `1.0.7` | 20250801 | `switch_sdcard` | Tesla 启动器 |
 | [Ultrahand-Overlay](https://github.com/zdm65477730/Ultrahand-Overlay) | zdm65477730 | `Ultrahand.zip` | `2.1.0-pre-release` | 20250906 | `switch_sdcard` | Tesla 菜单，替代 Tesla-Menu |
