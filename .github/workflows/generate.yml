@@ -61,7 +61,7 @@ jobs:
         if: steps.check_file.outputs.file_exists == 'true'
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: ${{ steps.update.outputs.message }}
+          commit_message: ${{env.BUILD_DATE}}
           
       - name: Delete workflow runs
         uses: Mattraks/delete-workflow-runs@main
