@@ -35,7 +35,7 @@ jobs:
       - name: Check if file exists
         id: check_file
         run: |
-            FILE_PATH="build/switch_sdcard.zip"
+            FILE_PATH="./build/switch_sdcard.zip"
             if [ -f "$FILE_PATH" ]; then
             echo "::notice ::File $FILE_PATH exists"
             echo "file_exists=true" >> $GITHUB_OUTPUT
