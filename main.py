@@ -65,10 +65,12 @@ def Entry():
     itemList = readme.getItems(path_dst)
     
     # 资源下载
+    logger.info("start download...")
     isUpdate, itemList = Download(path_default, path_download, path_dst, itemList)
 
     if isUpdate:
         # 打包
+        logger.info("start pack...")
         if os.path.exists(path_dst + '.zip'):
             os.remove(path_dst + '.zip')
         with zipfile.ZipFile(path_dst + '.zip', 'w') as zipObj:
@@ -78,6 +80,7 @@ def Entry():
                     zipObj.write(os.path.join(root, file), os.path.join(path, file))
     
         # 更新readme
+        logger.info("generate version file...")
         readme.generate(itemList, path_dst, versionFile)
 
     # 删除多余文件
