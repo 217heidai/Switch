@@ -55,7 +55,7 @@ class DOWNLOADER:
                     if re.match(pattern, fileName) and url is not None:
                         fileName = path + '/' + fileName
                         if not os.path.exists(fileName): # 不重复下载
-                            response = self.client.get(url)
+                            response = self.client.get(url, follow_redirects=True)
                             response.raise_for_status()
                             with open(fileName, 'wb') as f:
                                 f.write(response.content)
