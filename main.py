@@ -78,6 +78,8 @@ def Entry():
                 path = root.replace(path_dst, "")
                 for file in files:
                     zipObj.write(os.path.join(root, file), os.path.join(path, file))
+        if os.path.exists(path_dst + '.zip'):
+            logger.info("pack successed...")
     
         # 更新readme
         logger.info("generate version file...")
