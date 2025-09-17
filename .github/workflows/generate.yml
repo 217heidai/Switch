@@ -1,0 +1,69 @@
+name: Generate Atmosphere Packages
+on: 
+  push:
+    branches: [ main ]
+  workflow_dispatch:
+  schedule:
+  - cron: 0 23 * * *
+
+env:
+  TZ: Asia/Shanghai
+
+jobs:
+  Generate_Atmosphere_Packages:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repo
+        uses: actions/checkout@main
+
+      - name: Setup Python 3.9.x
+        uses: actions/setup-python@main
+        with:
+          python-version: '3.9.x'
+
+      - name: Install Dependencies
+        run: |
+          sudo timedatectl set-timezone "$TZ"
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Generate Atmosphere Packages
+        run: |
+          python main.py
+
+      - name: Check if file exists
+        id: check_file
+        run: |
+            FILE_PATH="build/switch_sdcard.zip"
+            if [ -f "$FILE_PATH" ]; then
+            echo "::notice ::File $FILE_PATH exists"
+            echo "file_exists=true" >> $GITHUB_OUTPUT
+            echo "BUILD_DATE=$(date +"%Y%m%d")" >> $GITHUB_ENV
+            else
+            echo "::warning ::File $FILE_PATH does not exist"
+            echo "file_exists=false" >> $GITHUB_OUTPUT
+            fi
+
+      - name: Upload to Release
+        if: steps.check_file.outputs.file_exists == 'true'
+        uses: svenstaro/upload-release-action@v2
+        with:
+          repo_token: ${{secrets.GITHUB_TOKEN}}
+          file: build/*
+          tag: ${{env.BUILD_DATE}}
+          body: |
+            整合清单详见 version.md
+          overwrite: true
+
+      - name: Commit Changes
+        if: steps.check_file.outputs.file_exists == 'true'
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: ${{ steps.update.outputs.message }}
+          
+      - name: Delete workflow runs
+        uses: Mattraks/delete-workflow-runs@main
+        with:
+          retain_days: 0
+          keep_minimum_runs: 4
