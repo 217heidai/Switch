@@ -26,6 +26,5 @@
 | [Goldleaf](https://github.com/XorTroll/Goldleaf) | XorTroll | `Goldleaf.nro` | `1.1.1` | 20250610 | `switch_sdcard/switch/Goldleaf/Goldleaf.nro` | 文件管理工具 |
 | [JKSV](https://github.com/J-D-K/JKSV) | J-D-K | `JKSV.nro` | `09/13/2025` | 20250914 | `switch_sdcard/switch/JKSV/JKSV.nro` | 游戏存档管理工具 |
 | [NX-Activity-Log](https://github.com/zdm65477730/NX-Activity-Log) | zdm65477730 | `NX-Activity-Log.nro` | `v1.5.7` | 20250429 | `switch_sdcard/switch/NX-Activity-Log/NX-Activity-Log.nro` | 游戏游玩时间记录工具 |
-| [NX-Shell](https://github.com/zdm65477730/NX-Shell) | zdm65477730 | `NX-Shell.nro` | `v${VERSION_MAJOR}.${VERSION_MINOR}.${VERSION_MICRO}` | 20250516 | `switch_sdcard/switch/NX-Activity-Log/NX-Shell.nro` | 文件管理工具 |
 | [OC_Toolkit_SC_EOS](https://github.com/halop/OC_Toolkit_SC_EOS) | halop | `kip.zip` | `1.6.8` | 20250903 | `switch_sdcard/atmosphere/kips` | 超频组件 |
 | [OC_Toolkit_SC_EOS](https://github.com/halop/OC_Toolkit_SC_EOS) | halop | `OC.Toolkit.zip` | `1.6.8` | 20250903 | `switch_sdcard/switch/.packages` | 超频组件 |
