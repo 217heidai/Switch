@@ -37,10 +37,10 @@ def Download(path_default: str, path_download: str, path_dst: str, itemList: Lis
                 raise Exception("download failed")
 
         # 重新替换被 atmosphere 覆盖的默认文件
-        UTIL.copyFile("%s/atmosphere/config_templates/exosphere.ini"%(path_default), "%s/atmosphere/config_templates/exosphere.ini"%(path_dst))
-        UTIL.copyFile("%s/atmosphere/config_templates/override_config.ini"%(path_default), "%s/atmosphere/config_templates/override_config.ini"%(path_dst))
-        UTIL.copyFile("%s/atmosphere/config_templates/stratosphere.ini"%(path_default), "%s/atmosphere/config_templates/stratosphere.ini"%(path_dst))
-        UTIL.copyFile("%s/atmosphere/config_templates/system_settings.ini"%(path_default), "%s/atmosphere/config_templates/system_settings.ini"%(path_dst))
+        #UTIL.copyFile("%s/atmosphere/config_templates/exosphere.ini"%(path_default), "%s/atmosphere/config_templates/exosphere.ini"%(path_dst))
+        #UTIL.copyFile("%s/atmosphere/config_templates/override_config.ini"%(path_default), "%s/atmosphere/config_templates/override_config.ini"%(path_dst))
+        #UTIL.copyFile("%s/atmosphere/config_templates/stratosphere.ini"%(path_default), "%s/atmosphere/config_templates/stratosphere.ini"%(path_dst))
+        #UTIL.copyFile("%s/atmosphere/config_templates/system_settings.ini"%(path_default), "%s/atmosphere/config_templates/system_settings.ini"%(path_dst))
         UTIL.copyFile("%s/bootloader/res/icon_switch.bmp"%(path_default), "%s/bootloader/res/icon_switch.bmp"%(path_dst))
         if os.path.exists("%s/bootloader/res/icon_payload.bmp"%(path_dst)):
             os.remove("%s/bootloader/res/icon_payload.bmp"%(path_dst))
