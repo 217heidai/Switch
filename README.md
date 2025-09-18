@@ -17,7 +17,7 @@
 | [Status-Monitor-Overlay](https://github.com/zdm65477730/Status-Monitor-Overlay) | zdm65477730 | `StatusMonitor.zip` | `v1.2.2` | 20250906 | `switch_sdcard` | Tesla 系统监视器 |
 | [EdiZon-Overlay](https://github.com/zdm65477730/EdiZon-Overlay) | zdm65477730 | `EdiZon.zip` | `v1.0.8` | 20250801 | `switch_sdcard` | Tesla 金手指游戏修改，含 NRO |
 | [QuickNTP](https://github.com/zdm65477730/QuickNTP) | zdm65477730 | `QuickNTP.zip` | `v1.5.1` | 20250801 | `switch_sdcard` | Tesla 时间同步工具 |
-| [OC_Toolkit_SC_EOS](https://github.com/halop/OC_Toolkit_SC_EOS) | halop | `sys-clk.zip` |  | 20250801 | `switch_sdcard` | Tesla 超频插件 |
+| [OC_Toolkit_SC_EOS](https://github.com/halop/OC_Toolkit_SC_EOS) | halop | `sys-clk.zip` | `1.6.8` | 20250903 | `switch_sdcard` | Tesla 超频插件 |
 | [OC_Toolkit_SC_EOS](https://github.com/halop/OC_Toolkit_SC_EOS) | halop | `kip.zip` | `1.6.8` | 20250903 | `switch_sdcard/atmosphere/kips` | 超频组件 |
 | [Checkpoint](https://github.com/BernardoGiordano/Checkpoint) | BernardoGiordano | `Checkpoint.nro` | `v3.10.1` | 20250622 | `switch_sdcard/switch/Checkpoint/Checkpoint.nro` | 游戏存档管理工具 |
 | [dbi](https://github.com/rashevskyv/dbi) | rashevskyv | `DBI.810.zhcn.nro` | `810` | 20250911 | `switch_sdcard/switch/DBI/DBI.nro` | 游戏安装，存档管理和文件传输工具 |
