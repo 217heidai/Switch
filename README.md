@@ -21,7 +21,7 @@
 | [OC_Toolkit_SC_EOS](https://github.com/halop/OC_Toolkit_SC_EOS) | halop | `sys-clk.zip` | `1.6.8` | 20250903 | `switch_sdcard` | Tesla 超频插件 |
 | [OC_Toolkit_SC_EOS](https://github.com/halop/OC_Toolkit_SC_EOS) | halop | `kip.zip` | `1.6.8` | 20250903 | `switch_sdcard/atmosphere/kips` | 超频组件 |
 | [Checkpoint](https://github.com/BernardoGiordano/Checkpoint) | BernardoGiordano | `Checkpoint.nro` | `v3.10.1` | 20250622 | `switch_sdcard/switch/Checkpoint/Checkpoint.nro` | 游戏存档管理工具（NRO） |
-| [dbi](https://github.com/rashevskyv/dbi) | rashevskyv | `DBI.810.zhcn.nro` | `810` | 20250911 | `switch_sdcard/switch/DBI/DBI.nro` | 游戏安装，存档管理和文件传输工具（NRO） |
+| [dbi](https://github.com/rashevskyv/DBIPatcher) | rashevskyv | `^DBI.*zhcn.nro$` |  |  | `switch_sdcard/switch/DBI/DBI.nro` | 游戏安装，存档管理和文件传输工具（NRO） |
 | [Hekate-Toolbox](https://github.com/WerWolv/Hekate-Toolbox) | WerWolv | `HekateToolbox.nro` | `v4.0.3` | 20230417 | `switch_sdcard/switch/HekateToolbox/HekateToolbox.nro` | 深海工具箱，插件管理（NRO） |
 | [Goldleaf](https://github.com/XorTroll/Goldleaf) | XorTroll | `Goldleaf.nro` | `1.1.1` | 20250610 | `switch_sdcard/switch/Goldleaf/Goldleaf.nro` | 文件管理工具（NRO） |
 | [JKSV](https://github.com/J-D-K/JKSV) | J-D-K | `JKSV.nro` | `09/13/2025` | 20250914 | `switch_sdcard/switch/JKSV/JKSV.nro` | 游戏存档管理工具（NRO） |
