@@ -5,7 +5,7 @@
 
 | 项目 | 作者 | 软件 | 版本 | 更新日期 | 存放路径 | 备注 |
 | --- | --- | --- | --- | --- | --- | --- |
-| [Atmosphere](https://github.com/Atmosphere-NX/Atmosphere) | Atmosphere-NX | `^atmosphere.*.zip$` | `1.9.4` | 20250903 | `switch_sdcard` | 大气层，Switch 系统破解核心 |
+| [Atmosphere](https://github.com/Atmosphere-NX/Atmosphere) | Atmosphere-NX | `^atmosphere.*.zip$` |  |  | `switch_sdcard` | 大气层，Switch 系统破解核心 |
 | [Atmosphere](https://github.com/Atmosphere-NX/Atmosphere) | Atmosphere-NX | `fusee.bin` | `1.9.4` | 20250903 | `switch_sdcard/bootloader/payloads/fusee.bin` | 大气层，Switch 系统破解核心 |
 | [hekate](https://github.com/easyworld/hekate) | easyworld | `^hekate.*sc.zip$` | `v6.3.1` | 20250529 | `switch_sdcard` | bootloader 程序，用来启动大气层 |
 | [sys-patch](https://github.com/impeeza/sys-patch) | impeeza | `sys-patch.zip` | `v1.5.6` | 20250505 | `switch_sdcard` | 外挂的大气层签名补丁，依赖 Tesla，替代 sigpatch |

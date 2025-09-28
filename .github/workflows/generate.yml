@@ -44,6 +44,13 @@ jobs:
                 echo "::warning ::File $FILE_PATH does not exist"
                 echo "file_exists=false" >> $GITHUB_OUTPUT
             fi
+      
+      - name: Read version.md
+        id: version
+        if: steps.check_file.outputs.file_exists == 'true'
+        uses: juliangruber/read-file-action@v1
+        with:
+          path: build/version.md
 
       - name: Upload to Release
         if: steps.check_file.outputs.file_exists == 'true'
@@ -54,7 +61,7 @@ jobs:
           file: build/*
           tag: ${{env.BUILD_DATE}}
           body: |
-            整合清单详见 version.md
+            ${{ steps.version.outputs.content }}
           overwrite: true
 
       - name: Commit Changes

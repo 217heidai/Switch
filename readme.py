@@ -49,10 +49,10 @@ class README(object):
             with open(versionFile, "w") as f:
                 f.write("# 整合清单\n")
                 f.write("\n")
-                f.write("| 项目 | 作者 | 软件 | 版本 | 更新日期 | 备注 |\n")
-                f.write("| --- | --- | --- | --- | --- | --- |\n")
+                f.write("| 项目 | 作者 | 版本 | 更新日期 |\n")
+                f.write("| --- | --- | --- | --- |\n")
                 for item in itemList:
-                    f.write("| [%s](%s) | %s | `%s` | `%s` | %s | %s |\n"%(item.repo[item.repo.find("/") + 1:], item.url, item.repo[:item.repo.find("/")], item.fileName[item.fileName.rfind("/") + 1:], item.releaseTag, item.fileDate, item.remark))
+                    f.write("| [%s](%s) | %s | `%s` | %s |\n"%(item.repo[item.repo.find("/") + 1:], item.url, item.repo[:item.repo.find("/")], item.releaseTag, item.fileDate))
         except Exception as e:
             logger.exception("%s" % (e))
         finally:
