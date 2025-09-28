@@ -5,7 +5,7 @@
 
 | 项目 | 作者 | 软件 | 版本 | 更新日期 | 存放路径 | 备注 |
 | --- | --- | --- | --- | --- | --- | --- |
-| [Atmosphere](https://github.com/Atmosphere-NX/Atmosphere) | Atmosphere-NX | `^atmosphere.*.zip$` |  |  | `switch_sdcard` | 大气层，Switch 系统破解核心 |
+| [Atmosphere](https://github.com/Atmosphere-NX/Atmosphere) | Atmosphere-NX | `^atmosphere.*.zip$` | `1.9.4` | 20250903 | `switch_sdcard` | 大气层，Switch 系统破解核心 |
 | [Atmosphere](https://github.com/Atmosphere-NX/Atmosphere) | Atmosphere-NX | `fusee.bin` | `1.9.4` | 20250903 | `switch_sdcard/bootloader/payloads/fusee.bin` | 大气层，Switch 系统破解核心 |
 | [hekate](https://github.com/easyworld/hekate) | easyworld | `^hekate.*sc.zip$` | `v6.3.1` | 20250529 | `switch_sdcard` | bootloader 程序，用来启动大气层 |
 | [sys-patch](https://github.com/impeeza/sys-patch) | impeeza | `sys-patch.zip` | `v1.5.6` | 20250505 | `switch_sdcard` | 外挂的大气层签名补丁，依赖 Tesla，替代 sigpatch |
@@ -21,7 +21,7 @@
 | [OC_Toolkit_SC_EOS](https://github.com/halop/OC_Toolkit_SC_EOS) | halop | `sys-clk.zip` | `1.6.8` | 20250903 | `switch_sdcard` | Tesla 超频插件 |
 | [OC_Toolkit_SC_EOS](https://github.com/halop/OC_Toolkit_SC_EOS) | halop | `kip.zip` | `1.6.8` | 20250903 | `switch_sdcard/atmosphere/kips` | 超频组件 |
 | [Checkpoint](https://github.com/BernardoGiordano/Checkpoint) | BernardoGiordano | `Checkpoint.nro` | `v3.10.1` | 20250622 | `switch_sdcard/switch/Checkpoint/Checkpoint.nro` | 游戏存档管理工具（NRO） |
-| [dbi](https://github.com/rashevskyv/DBIPatcher) | rashevskyv | `^DBI.*zhcn.nro$` |  |  | `switch_sdcard/switch/DBI/DBI.nro` | 游戏安装，存档管理和文件传输工具（NRO） |
+| [DBIPatcher](https://github.com/rashevskyv/DBIPatcher) | rashevskyv | `^DBI.*zhcn.nro$` | `dbi-810-f218a0f` | 20250926 | `switch_sdcard/switch/DBI/DBI.nro` | 游戏安装，存档管理和文件传输工具（NRO） |
 | [Hekate-Toolbox](https://github.com/WerWolv/Hekate-Toolbox) | WerWolv | `HekateToolbox.nro` | `v4.0.3` | 20230417 | `switch_sdcard/switch/HekateToolbox/HekateToolbox.nro` | 深海工具箱，插件管理（NRO） |
 | [Goldleaf](https://github.com/XorTroll/Goldleaf) | XorTroll | `Goldleaf.nro` | `1.1.1` | 20250610 | `switch_sdcard/switch/Goldleaf/Goldleaf.nro` | 文件管理工具（NRO） |
 | [JKSV](https://github.com/J-D-K/JKSV) | J-D-K | `JKSV.nro` | `09/13/2025` | 20250914 | `switch_sdcard/switch/JKSV/JKSV.nro` | 游戏存档管理工具（NRO） |
