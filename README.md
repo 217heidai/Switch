@@ -18,8 +18,8 @@
 | [EdiZon-Overlay](https://github.com/zdm65477730/EdiZon-Overlay) | zdm65477730 | `EdiZon.zip` | `v1.0.8` | 20250801 | `switch_sdcard` | Tesla 金手指游戏修改，含 NRO |
 | [QuickNTP](https://github.com/zdm65477730/QuickNTP) | zdm65477730 | `QuickNTP.zip` | `v1.5.1` | 20250801 | `switch_sdcard` | Tesla 时间同步工具 |
 | [sys-patch](https://github.com/impeeza/sys-patch) | impeeza | `sys-patch.zip` | `v1.5.6` | 20250505 | `switch_sdcard` | Tesla 系统补丁 |
-| [OC_Toolkit_SC_EOS](https://github.com/halop/OC_Toolkit_SC_EOS) | halop | `sys-clk.zip` | `1.6.8` | 20250903 | `switch_sdcard` | Tesla 超频插件 |
-| [OC_Toolkit_SC_EOS](https://github.com/halop/OC_Toolkit_SC_EOS) | halop | `kip.zip` | `1.6.8` | 20250903 | `switch_sdcard/atmosphere/kips` | 超频组件 |
+| [OC_Toolkit_SC_EOS](https://github.com/halop/OC_Toolkit_SC_EOS) | halop | `sys-clk.zip` | `1.6.9` | 20251001 | `switch_sdcard` | Tesla 超频插件 |
+| [OC_Toolkit_SC_EOS](https://github.com/halop/OC_Toolkit_SC_EOS) | halop | `kip.zip` | `1.6.9` | 20251001 | `switch_sdcard/atmosphere/kips` | 超频组件 |
 | [Checkpoint](https://github.com/BernardoGiordano/Checkpoint) | BernardoGiordano | `Checkpoint.nro` | `v3.10.1` | 20250622 | `switch_sdcard/switch/Checkpoint/Checkpoint.nro` | 游戏存档管理工具（NRO） |
 | [DBIPatcher](https://github.com/rashevskyv/DBIPatcher) | rashevskyv | `^DBI.*zhcn.nro$` | `dbi-810-f218a0f` | 20250926 | `switch_sdcard/switch/DBI/DBI.nro` | 游戏安装，存档管理和文件传输工具（NRO） |
 | [Hekate-Toolbox](https://github.com/WerWolv/Hekate-Toolbox) | WerWolv | `HekateToolbox.nro` | `v4.0.3` | 20230417 | `switch_sdcard/switch/HekateToolbox/HekateToolbox.nro` | 深海工具箱，插件管理（NRO） |
