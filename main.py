@@ -24,7 +24,7 @@ def Download(path_default: str, path_download: str, path_dst: str, itemList: Lis
         downloader = DOWNLOADER()
         for item in itemList:
             # 下载资源
-            item.isDownload, item.fileName, fileDigest, ifileDate, releaseTag = downloader.down_git_release(item.repo, path_download, item.pattern, proxy=item.proxy)
+            item.isDownload, item.fileName, _, ifileDate, releaseTag = downloader.down_git_release(item.repo, path_download, item.pattern, proxy=item.proxy)
             
             # 处理文件
             if item.isDownload:

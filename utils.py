@@ -48,7 +48,7 @@ class ITEM(object):
             if self.fileName[self.fileName.rfind("."):] == ".zip":
                 with zipfile.ZipFile(self.fileName, 'r') as zip_ref:
                     zip_ref.extractall(self.dst)
-            elif self.fileName[self.fileName.rfind("."):] in (".bin", ".nro", ".config"):
+            elif self.fileName[self.fileName.rfind("."):] in (".bin", ".nro", ".config", ".ovl"):
                 UTIL.copyFile(self.fileName, self.dst)
             else:
                 pass
@@ -59,5 +59,8 @@ class ITEM(object):
                 fileSrc = "%s/hekate_ctcaer_%s.bin"%(self.dst, self.releaseTag[1:])
                 fileDst = "%s/payload.bin"%(self.dst)
                 UTIL.renameFile(fileSrc, fileDst)
+            ## Ultrahand-Overlay lang.zip
+            if re.match("lang.zip", os.path.basename(self.fileName)):
+                UTIL.copyFile(self.fileName[:-4], self.dst)
         except Exception as e:
             logger.exception("%s" % (e))
