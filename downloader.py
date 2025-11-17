@@ -41,6 +41,8 @@ class DOWNLOADER:
                 assets = release.get("assets", [])
                 if tag is None or len(assets) < 1:
                     raise Exception("no release tag")
+                if tag.find("prerelease") >= 0: # 跳过预发布版本
+                    continue
                 #message = release.get("body", "")
                 #logger.info(message)
                 # 下载 release 资源
