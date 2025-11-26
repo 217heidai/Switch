@@ -11,7 +11,7 @@
 | [sys-patch](https://github.com/impeeza/sys-patch) | impeeza | `sys-patch.zip` | `v1.5.7` | 20251111 | `switch_sdcard` | 外挂的大气层签名补丁，依赖 Tesla，替代 sigpatch |
 | [Lockpick_RCMDecScots](https://github.com/zdm65477730/Lockpick_RCMDecScots) | zdm65477730 | `Lockpick_RCM.bin` | `1.9.16.0` | 20251121 | `switch_sdcard/bootloader/payloads/Lockpick_RCM.bin` | 主机系统的密钥提取工具 |
 | [TegraExplorer](https://github.com/zdm65477730/TegraExplorer) | zdm65477730 | `TegraExplorer.bin` | `v4.2.0` | 20251121 | `switch_sdcard/bootloader/payloads/TegraExplorer.bin` | Hekate 下的文件管理工具 |
-| [nx-ovlloader](https://github.com/ppkantorski/nx-ovlloader) | ppkantorski | `nx-ovlloader+.zip` | `v1.1.2` | 20251116 | `switch_sdcard` | Tesla 启动器 |
+| [nx-ovlloader](https://github.com/ppkantorski/nx-ovlloader) | ppkantorski | `nx-ovlloader+.zip` | `v2.0.0` | 20251126 | `switch_sdcard` | Tesla 启动器 |
 | [Ultrahand-Overlay](https://github.com/ppkantorski/Ultrahand-Overlay) | ppkantorski | `ovlmenu.ovl` | `v2.1.8` | 20251116 | `switch_sdcard/switch/.overlays/ovlmenu.ovl` | Tesla 菜单 |
 | [Ultrahand-Overlay](https://github.com/ppkantorski/Ultrahand-Overlay) | ppkantorski | `lang.zip` | `v2.1.8` | 20251116 | `switch_sdcard/config/ultrahand/lang` | Tesla 菜单 |
 | [ovl-sysmodules](https://github.com/ppkantorski/ovl-sysmodules) | ppkantorski | `ovlSysmodules.ovl` | `v1.4.3` | 20251116 | `switch_sdcard/switch/.overlays/ovlSysmodules.ovl` | Tesla 系统管理 |
