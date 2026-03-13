@@ -12,10 +12,10 @@
 | [Lockpick_RCMDecScots](https://github.com/zdm65477730/Lockpick_RCMDecScots) | zdm65477730 | `Lockpick_RCM.bin` | `v1.9.17` | 20251225 | `switch_sdcard/bootloader/payloads/Lockpick_RCM.bin` | 主机系统的密钥提取工具 |
 | [TegraExplorer](https://github.com/zdm65477730/TegraExplorer) | zdm65477730 | `TegraExplorer.bin` | `v4.2.0` | 20251121 | `switch_sdcard/bootloader/payloads/TegraExplorer.bin` | Hekate 下的文件管理工具 |
 | [nx-ovlloader](https://github.com/ppkantorski/nx-ovlloader) | ppkantorski | `nx-ovlloader+.zip` | `v2.0.0` | 20251129 | `switch_sdcard` | Tesla 启动器 |
-| [Ultrahand-Overlay](https://github.com/ppkantorski/Ultrahand-Overlay) | ppkantorski | `ovlmenu.ovl` | `v2.2.9` | 20260222 | `switch_sdcard/switch/.overlays/ovlmenu.ovl` | Tesla 菜单 |
-| [Ultrahand-Overlay](https://github.com/ppkantorski/Ultrahand-Overlay) | ppkantorski | `lang.zip` | `v2.2.9` | 20260222 | `switch_sdcard/config/ultrahand/lang` | Tesla 菜单 |
+| [Ultrahand-Overlay](https://github.com/ppkantorski/Ultrahand-Overlay) | ppkantorski | `ovlmenu.ovl` | `v2.3.0` | 20260313 | `switch_sdcard/switch/.overlays/ovlmenu.ovl` | Tesla 菜单 |
+| [Ultrahand-Overlay](https://github.com/ppkantorski/Ultrahand-Overlay) | ppkantorski | `lang.zip` | `v2.3.0` | 20260313 | `switch_sdcard/config/ultrahand/lang` | Tesla 菜单 |
 | [ovl-sysmodules](https://github.com/ppkantorski/ovl-sysmodules) | ppkantorski | `ovlSysmodules.ovl` | `v1.4.7` | 20260112 | `switch_sdcard/switch/.overlays/ovlSysmodules.ovl` | Tesla 系统管理 |
-| [Status-Monitor-Overlay](https://github.com/ppkantorski/Status-Monitor-Overlay) | ppkantorski | `Status-Monitor-Overlay.ovl` | `v1.3.2+r6` | 20260111 | `switch_sdcard/switch/.overlays/Status-Monitor-Overlay.ovl` | Tesla 系统监视器 |
+| [Status-Monitor-Overlay](https://github.com/ppkantorski/Status-Monitor-Overlay) | ppkantorski | `Status-Monitor-Overlay.ovl` | `v1.3.2+r7` | 20260313 | `switch_sdcard/switch/.overlays/Status-Monitor-Overlay.ovl` | Tesla 系统监视器 |
 | [EdiZon-Overlay](https://github.com/ppkantorski/EdiZon-Overlay) | ppkantorski | `ovlEdiZon.ovl` | `v1.0.9` | 20240930 | `switch_sdcard/switch/.overlays/ovlEdiZon.ovl` | Tesla 金手指游戏修改 |
 | [OC_Toolkit_SC_EOS](https://github.com/halop/OC_Toolkit_SC_EOS) | halop | `sys-clk.zip` | `1.7.2` | 20260115 | `switch_sdcard` | Tesla 超频插件 |
 | [OC_Toolkit_SC_EOS](https://github.com/halop/OC_Toolkit_SC_EOS) | halop | `kip.zip` | `1.7.2` | 20260115 | `switch_sdcard/atmosphere/kips` | 超频组件 |
