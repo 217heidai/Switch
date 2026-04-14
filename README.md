@@ -17,8 +17,7 @@
 | [ovl-sysmodules](https://github.com/ppkantorski/ovl-sysmodules) | ppkantorski | `ovlSysmodules.ovl` | `v1.4.8` | 20260315 | `switch_sdcard/switch/.overlays/ovlSysmodules.ovl` | Tesla 系统管理 |
 | [Status-Monitor-Overlay](https://github.com/ppkantorski/Status-Monitor-Overlay) | ppkantorski | `Status-Monitor-Overlay.ovl` | `v1.3.2+r7` | 20260313 | `switch_sdcard/switch/.overlays/Status-Monitor-Overlay.ovl` | Tesla 系统监视器 |
 | [EdiZon-Overlay](https://github.com/ppkantorski/EdiZon-Overlay) | ppkantorski | `ovlEdiZon.ovl` | `v1.0.9` | 20240930 | `switch_sdcard/switch/.overlays/ovlEdiZon.ovl` | Tesla 金手指游戏修改 |
-| [OC_Toolkit_SC_EOS](https://github.com/halop/OC_Toolkit_SC_EOS) | halop | `sys-clk.zip` | `1.7.2` | 20260115 | `switch_sdcard` | Tesla 超频插件 |
-| [OC_Toolkit_SC_EOS](https://github.com/halop/OC_Toolkit_SC_EOS) | halop | `kip.zip` | `1.7.2` | 20260115 | `switch_sdcard/atmosphere/kips` | 超频组件 |
+| [Horizon-OC](https://github.com/Horizon-OC/Horizon-OC) | Horizon-OC | `dist.zip` |  |  | `switch_sdcard` | 超频组件 |
 | [DBIPatcher](https://github.com/rashevskyv/DBIPatcher) | rashevskyv | `^DBI.*zhcn.nro$` | `849` | 20251206 | `switch_sdcard/switch/DBI/DBI.nro` | 游戏安装，存档管理和文件传输工具（NRO） |
 | [Hekate-Toolbox](https://github.com/WerWolv/Hekate-Toolbox) | WerWolv | `HekateToolbox.nro` | `v4.0.4` | 20251201 | `switch_sdcard/switch/HekateToolbox/HekateToolbox.nro` | 深海工具箱，插件管理（NRO） |
 | [JKSV](https://github.com/J-D-K/JKSV) | J-D-K | `JKSV.nro` | `12/02/2025` | 20251202 | `switch_sdcard/switch/JKSV/JKSV.nro` | 游戏存档管理工具（NRO） |
