@@ -14,8 +14,8 @@
 | [nx-ovlloader](https://github.com/ppkantorski/nx-ovlloader) | ppkantorski | `nx-ovlloader+.zip` | `v2.0.0` | 20251129 | `switch_sdcard` | Tesla 启动器 |
 | [Ultrahand-Overlay](https://github.com/ppkantorski/Ultrahand-Overlay) | ppkantorski | `ovlmenu.ovl` | `v2.4.0` | 20260416 | `switch_sdcard/switch/.overlays/ovlmenu.ovl` | Tesla 菜单 |
 | [Ultrahand-Overlay](https://github.com/ppkantorski/Ultrahand-Overlay) | ppkantorski | `lang.zip` | `v2.4.0` | 20260416 | `switch_sdcard/config/ultrahand/lang` | Tesla 菜单 |
-| [ovl-sysmodules](https://github.com/ppkantorski/ovl-sysmodules) | ppkantorski | `ovlSysmodules.ovl` | `v1.4.8` | 20260315 | `switch_sdcard/switch/.overlays/ovlSysmodules.ovl` | Tesla 系统管理 |
-| [Status-Monitor-Overlay](https://github.com/ppkantorski/Status-Monitor-Overlay) | ppkantorski | `Status-Monitor-Overlay.ovl` | `v1.3.2+r7` | 20260313 | `switch_sdcard/switch/.overlays/Status-Monitor-Overlay.ovl` | Tesla 系统监视器 |
+| [ovl-sysmodules](https://github.com/ppkantorski/ovl-sysmodules) | ppkantorski | `ovlSysmodules.ovl` | `v1.4.9` | 20260417 | `switch_sdcard/switch/.overlays/ovlSysmodules.ovl` | Tesla 系统管理 |
+| [Status-Monitor-Overlay](https://github.com/ppkantorski/Status-Monitor-Overlay) | ppkantorski | `Status-Monitor-Overlay.ovl` | `v1.3.2+r8` | 20260417 | `switch_sdcard/switch/.overlays/Status-Monitor-Overlay.ovl` | Tesla 系统监视器 |
 | [EdiZon-Overlay](https://github.com/ppkantorski/EdiZon-Overlay) | ppkantorski | `ovlEdiZon.ovl` | `v1.0.9` | 20240930 | `switch_sdcard/switch/.overlays/ovlEdiZon.ovl` | Tesla 金手指游戏修改 |
 | [Horizon-OC](https://github.com/Horizon-OC/Horizon-OC) | Horizon-OC | `dist.zip` | `1.2.1` | 20260407 | `switch_sdcard` | 超频组件 |
 | [DBIPatcher](https://github.com/rashevskyv/DBIPatcher) | rashevskyv | `^DBI.*zhcn.nro$` | `849` | 20251206 | `switch_sdcard/switch/DBI/DBI.nro` | 游戏安装，存档管理和文件传输工具（NRO） |
