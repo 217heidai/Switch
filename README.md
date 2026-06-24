@@ -13,7 +13,7 @@
 | [TegraExplorer](https://github.com/zdm65477730/TegraExplorer) | zdm65477730 | `TegraExplorer.bin` | `v4.2.0` | 20251121 | `switch_sdcard/bootloader/payloads/TegraExplorer.bin` | Hekate 下的文件管理工具 |
 | [Ultrahand-Overlay](https://github.com/ppkantorski/Ultrahand-Overlay) | ppkantorski | `sdout.zip` | `v2.5.1` | 20260621 | `switch_sdcard` | Tesla 启动器 |
 | [ovl-sysmodules](https://github.com/ppkantorski/ovl-sysmodules) | ppkantorski | `ovlSysmodules.ovl` | `v1.5.2` | 20260611 | `switch_sdcard/switch/.overlays/ovlSysmodules.ovl` | Tesla 系统管理 |
-| [Status-Monitor-Overlay](https://github.com/ppkantorski/Status-Monitor-Overlay) | ppkantorski | `Status-Monitor-Overlay.ovl` | `v1.4.1+r2` | 20260611 | `switch_sdcard/switch/.overlays/Status-Monitor-Overlay.ovl` | Tesla 系统监视器 |
+| [Status-Monitor-Overlay](https://github.com/ppkantorski/Status-Monitor-Overlay) | ppkantorski | `Status-Monitor-Overlay.ovl` | `v1.4.1+r3` | 20260624 | `switch_sdcard/switch/.overlays/Status-Monitor-Overlay.ovl` | Tesla 系统监视器 |
 | [EdiZon-Overlay](https://github.com/ppkantorski/EdiZon-Overlay) | ppkantorski | `ovlEdiZon.ovl` | `v1.0.9` | 20240930 | `switch_sdcard/switch/.overlays/ovlEdiZon.ovl` | Tesla 金手指游戏修改 |
 | [Horizon-OC](https://github.com/Horizon-OC/Horizon-OC) | Horizon-OC | `dist.zip` | `2.4.2` | 20260617 | `switch_sdcard` | 超频组件 |
 | [DBIPatcher](https://github.com/rashevskyv/DBIPatcher) | rashevskyv | `DBI.nro` | `895` | 20260506 | `switch_sdcard/switch/DBI/DBI.nro` | 游戏安装，存档管理和文件传输工具（NRO） |
